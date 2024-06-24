@@ -32,6 +32,7 @@ INCLUDEPATH += src
 SOURCES += \
   src/acl_roles_handler.cpp \
   src/aoclient.cpp \
+  src/commands/casegeneratorloader.cpp \
   src/network/aopacket.cpp \
   src/network/network_socket.cpp \
   src/area_data.cpp \
@@ -84,6 +85,7 @@ HEADERS += src/aoclient.h \
   src/acl_roles_handler.h \
   src/akashidefs.h \
   src/akashiutils.h \
+  src/commands/casegeneratorloader.h \
   src/network/aopacket.h \
   src/network/network_socket.h \
   src/area_data.h \

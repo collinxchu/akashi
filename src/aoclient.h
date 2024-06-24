@@ -1440,6 +1440,15 @@ class AOClient : public QObject
      */
     void cmd8Ball(int argc, QStringList argv);
 
+    /**
+     * @brief Generates a case idea from a large amount of possible variables.
+     *
+     * @details No arguments.
+     *
+     * @iscommand
+     */
+    void cmdCasegen(int argc, QStringList argv);
+
     ///@}
 
     /**
